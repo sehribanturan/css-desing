@@ -1,0 +1,134 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #16618c;
+  display: flex;
+
+  padding: 15px;
+}
+.logo a img {
+  width: 150px;
+  margin-left: 20px;
+}
+.input input {
+  width: 830px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 13px;
+  padding: 13px;
+  margin-right: 70px;
+  margin-left: 30px;
+  border: none;
+}
+.btn-search button {
+  width: 50px;
+  padding: 13px;
+  margin-left: -80px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+  border: 0;
+  background-color: #ef9d2e;
+}
+.btn-search button:hover {
+  background-color: #102634;
+}
+.btn-search button i {
+  color: white;
+}
+.btn-started button {
+  width: 120px;
+  padding: 13px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ef9d2e;
+  color: white;
+  font-size: 16px;
+}
+.btn-started button:hover {
+  background-color: #102634;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+.nav-list li {
+  color: black;
+  font-size: 20px;
+}
+.nav-list li:hover {
+  color: #ef9d2e;
+}
+
+.nav-list li select {
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+.nav-list li select:hover {
+  color: #ef9d2e;
+}
+.cont-list ul {
+  display: flex;
+  gap: 30px;
+  margin-left: 290px;
+}
+.cont-list ul a li i {
+  color: #ef9d2e;
+  margin-right: 10px;
+}
+.bg-img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.img-txt {
+  top: 400px;
+  left: 300px;
+  width: 100%;
+  position: absolute;
+}
+.img-txt h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  width: 500px;
+  text-align: center;
+  margin-left: 50px;
+}
+.img-txt h3 {
+  color: white;
+  width: 620px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.img-txt button {
+  top: 200px;
+  left: 200px;
+  position: absolute;
+  width: 180px;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ef9d2e;
+  color: white;
+  font-size: 16px;
+}
+.img-txt button:hover {
+  background-color: #0b3249;
+}
+.section {
+  background-color: #0b3249;
+  width: 100%;
+}
